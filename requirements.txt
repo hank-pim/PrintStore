@@ -1,0 +1,9 @@
+PyQt6
+pyvista
+pyvistaqt
+numpy
+trimesh
+networkx
+lxml
+lib3mf
+meshio
