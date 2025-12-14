@@ -207,7 +207,7 @@ class STLViewer(QMainWindow):
         self.proxy_model.setSourceModel(self.file_model)
 
         cache_root = os.path.join(
-            os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"),
+            os.environ.get("LOCALAPPDATA") or os.environ.get("XDG_CACHE_HOME") or os.path.expanduser("~/.cache"),
             "PrintStore",
             "thumbs",
         )
