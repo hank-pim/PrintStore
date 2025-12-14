@@ -2,6 +2,8 @@
 
 Simple local/network 3D print file viewer.
 
+![PrintStore Screenshot](screengrab.png)
+
 - Browse folders (including UNC/network shares on Windows)
 - Thumbnail grid view for `.3mf`/`.stl` (cached locally)
 - Click a file to preview it in a PyVista 3D viewport
